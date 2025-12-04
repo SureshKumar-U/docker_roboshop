@@ -3,8 +3,8 @@ WORKDIR /opt/server
 COPY package.json .
 COPY *.js .
 ENV MONGO_URL=mongodb://mongodb:27017/catalogue \
-    CATALOGUE_SERVER_PORT = 8000
-    GO_SLOW = 5
+    CATALOGUE_SERVER_PORT=8000
+    GO_SLOW=5
     
 
 
